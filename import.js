@@ -3,7 +3,7 @@ import fs from "fs";
 import path from "path";
 import fetch from "node-fetch";
 
-const STRAPI_API = process.env.STRAPI_API_URL || "http://localhost:1337";
+const STRAPI_API = process.env.STRAPI_API_URL || "https://strapidata.onrender.com";
 const AUTH_TOKEN = process.env.STRAPI_ADMIN_TOKEN; // Strapi Admin Token 넣기
 
 if (!AUTH_TOKEN) {
