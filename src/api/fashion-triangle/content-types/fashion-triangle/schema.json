@@ -80,6 +80,9 @@
     },
     "isNew": {
       "type": "boolean"
+    },
+    "hotSignalTitle": {
+      "type": "string"
     }
   }
 }

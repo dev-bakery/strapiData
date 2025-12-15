@@ -486,6 +486,7 @@ export interface ApiFashionTriangleFashionTriangle
     deliveryText: Schema.Attribute.String;
     groupItemCnt: Schema.Attribute.Integer;
     groupNo: Schema.Attribute.Integer;
+    hotSignalTitle: Schema.Attribute.String;
     imageUrl: Schema.Attribute.String;
     isAdult: Schema.Attribute.Boolean;
     isBigSmileItem: Schema.Attribute.Boolean;
