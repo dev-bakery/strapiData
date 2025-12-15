@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_lmos_products",
+  "info": {
+    "displayName": "product"
+  },
+  "options": {},
+  "attributes": {
+    "lmoType": {
+      "type": "string"
+    },
+    "lmoString": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fashion_triangles",
+  "info": {
+    "singularName": "fashion-triangle",
+    "pluralName": "fashion-triangles",
+    "displayName": "fashionTriangle"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "itemNo": {
+      "type": "string"
+    },
+    "itemName": {
+      "type": "string"
+    },
+    "itemUrl": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "itemPrice": {
+      "type": "integer"
+    },
+    "sellPrice": {
+      "type": "integer"
+    },
+    "buyCount": {
+      "type": "integer"
+    },
+    "groupItemCnt": {
+      "type": "integer"
+    },
+    "groupNo": {
+      "type": "integer"
+    },
+    "reviewPoint": {
+      "type": "component",
+      "component": "review-point.product",
+      "repeatable": false
+    },
+    "lmos": {
+      "type": "component",
+      "component": "lmos.product",
+      "repeatable": true
+    }
+  }
+}

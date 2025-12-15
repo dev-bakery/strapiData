@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_review_point_products",
+  "info": {
+    "displayName": "product"
+  },
+  "options": {},
+  "attributes": {
+    "starPoint": {
+      "type": "decimal"
+    },
+    "reviewCount": {
+      "type": "integer"
+    }
+  },
+  "config": {}
+}
