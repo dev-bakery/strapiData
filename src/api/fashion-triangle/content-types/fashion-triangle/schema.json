@@ -47,6 +47,39 @@
       "type": "component",
       "component": "lmos.product",
       "repeatable": true
+    },
+    "sdBrandName": {
+      "type": "string"
+    },
+    "deliveryText": {
+      "type": "string"
+    },
+    "scode": {
+      "type": "string"
+    },
+    "mcode": {
+      "type": "string"
+    },
+    "lcode": {
+      "type": "string"
+    },
+    "isFashionSquareSeller": {
+      "type": "boolean"
+    },
+    "isLmoOfficialSeller": {
+      "type": "boolean"
+    },
+    "isAdult": {
+      "type": "boolean"
+    },
+    "isBigSmileItem": {
+      "type": "boolean"
+    },
+    "isCartVisible": {
+      "type": "boolean"
+    },
+    "isNew": {
+      "type": "boolean"
     }
   }
 }

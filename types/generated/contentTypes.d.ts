@@ -483,13 +483,21 @@ export interface ApiFashionTriangleFashionTriangle
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    deliveryText: Schema.Attribute.String;
     groupItemCnt: Schema.Attribute.Integer;
     groupNo: Schema.Attribute.Integer;
     imageUrl: Schema.Attribute.String;
+    isAdult: Schema.Attribute.Boolean;
+    isBigSmileItem: Schema.Attribute.Boolean;
+    isCartVisible: Schema.Attribute.Boolean;
+    isFashionSquareSeller: Schema.Attribute.Boolean;
+    isLmoOfficialSeller: Schema.Attribute.Boolean;
+    isNew: Schema.Attribute.Boolean;
     itemName: Schema.Attribute.String;
     itemNo: Schema.Attribute.String;
     itemPrice: Schema.Attribute.Integer;
     itemUrl: Schema.Attribute.String;
+    lcode: Schema.Attribute.String;
     lmos: Schema.Attribute.Component<'lmos.product', true>;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
@@ -497,8 +505,11 @@ export interface ApiFashionTriangleFashionTriangle
       'api::fashion-triangle.fashion-triangle'
     > &
       Schema.Attribute.Private;
+    mcode: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
     reviewPoint: Schema.Attribute.Component<'review-point.product', false>;
+    scode: Schema.Attribute.String;
+    sdBrandName: Schema.Attribute.String;
     sellPrice: Schema.Attribute.Integer;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
